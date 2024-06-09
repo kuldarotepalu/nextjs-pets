@@ -137,8 +137,6 @@ export default function PetsListSection(props) {
         </div>
       </div>
 
-
-
       <div style={styleObject} className={isOverlayOpen ? "form-overlay form-overlay--is-visible" : "form-overlay"}>
         <form onSubmit={contactSubmit} className="form-overlay-inner" action="">
           <div className="form-content">
